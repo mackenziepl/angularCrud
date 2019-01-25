@@ -1,10 +1,10 @@
 export class Employee {
   id: number;
-  name: string;
+  fullName: string;
   gender: string;
   email?: string;
   phoneNumber?: number;
-  contractPreference: string;
+  contactPreference: string;
   dateOfBirth: Date;
   department: string;
   isActive: boolean;
