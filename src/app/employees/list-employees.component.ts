@@ -12,7 +12,7 @@ export class ListEmployeesComponent implements OnInit {
   employees: Employee[] = [
     {
       id: 1,
-      fullName: 'Mark',
+      name: 'Mark',
       gender: 'Male',
       contactPreference: 'Email',
       email: 'mark@getMaxListeners.com',
@@ -23,7 +23,7 @@ export class ListEmployeesComponent implements OnInit {
     },
     {
       id: 2,
-      fullName: 'Mary',
+      name: 'Mary',
       gender: 'Female',
       contactPreference: 'Phone',
       phoneNumber: 48123456789,
@@ -34,7 +34,7 @@ export class ListEmployeesComponent implements OnInit {
     },
     {
       id: 3,
-      fullName: 'John',
+      name: 'John',
       gender: 'Male',
       contactPreference: 'Phone',
       phoneNumber: 48987654321,
